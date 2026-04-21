@@ -1,0 +1,4 @@
+region:
+  type: string
+  lib: custom
+  value: "'us-east-2'"

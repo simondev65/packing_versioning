@@ -2,5 +2,13 @@ output: default
 streamtags: []
 groups: {}
 asyncFuncTimeout: 1000
-functions: []
+functions:
+  - id: eval
+    filter: "true"
+    conf:
+      printUndefineds: false
+      add:
+        - disabled: false
+          name: __xsiam
+          value: "true"
 description: ""
