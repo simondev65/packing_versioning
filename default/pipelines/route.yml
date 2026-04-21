@@ -9,9 +9,10 @@ routes:
     pipeline: monpipelie
     description: ""
     enableOutputExpression: false
+    targetContext: group
     filter: "true"
     clones: []
-    output: my_s3_dest
+    output: __group
   - id: default
     name: default
     final: true
