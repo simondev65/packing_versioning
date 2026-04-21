@@ -6,7 +6,7 @@ routes:
     name: datagen to s3
     final: true
     disabled: false
-    pipeline: monpipelie
+    pipeline: piep2
     description: ""
     enableOutputExpression: false
     targetContext: group
